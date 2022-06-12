@@ -4,7 +4,7 @@
 
 ## Description
 
-> fredhur's problem solving of [BOJ](acmicpc.net)
+> fredhur's problem solving of [BOJ](https://acmicpc.net)
 
 
 ## Environment
