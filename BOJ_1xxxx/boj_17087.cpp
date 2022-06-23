@@ -27,8 +27,8 @@ int main()
     for (int i = 1; i < N; i++)
     {
 
-          scanf(" %d", &t);
+        scanf(" %d", &t);
         ans = gcd(ans, ABS(S - t));
     }
-   printf("%d", ans);
+    printf("%d", ans);
 }
