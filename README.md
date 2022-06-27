@@ -21,6 +21,6 @@
 2. Run **developer power shell**
 3. Type "code" and then "enter" (Open visual studio code)
 4. type command "cl boj_xxx.cpp" ( msvc compiler )
-5. obj file and exe file will be create.
-6. type command "./boj_xxx.exe"
+5. obj file and exe file will be created.
+6. type command "./boj_xxx.exe" 
 7. check result.
