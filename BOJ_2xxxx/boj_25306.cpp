@@ -8,7 +8,7 @@ ll xorSum(ll n)
         1,
         n + 1,
         0};
-    const auto m = n & (4-1);
+    const auto m = n & (4 - 1);
     return lut[m];
 }
 ll A, B;
