@@ -1,5 +1,5 @@
 #include <cstdio>
-using ll = long long;
+using ll = long;
 static constexpr auto SIZE = 1'000'007;
 static constexpr auto mod = 1'000'000'009;
 
