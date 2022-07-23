@@ -4,14 +4,14 @@
 
 > fredhur's problem solving of [Baekjoon Online Judge](https://acmicpc.net)
 
-## Environment
-+ c++11 ~ c++17 , python 
+## Fredhur's Environment
++ c++11 ~ c++17
 + Windows (OS)
 + MSVC (Compiler)
 + Visual Studio code (IDE)
 + Visual Studio 2022 (For using MSVC compiler)
 
-## How to run (cpp file)
+## How to Build and Run
 
 1. Install visual studio 2022 (higher than 2022 will be okay)
 2. Run **developer power shell**
