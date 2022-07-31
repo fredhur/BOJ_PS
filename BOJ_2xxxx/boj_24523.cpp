@@ -13,12 +13,12 @@ stack<Data> stk;
 int main()
 {
     scanf("%d", &N);
-    for (int i = 1; i <= N; i++)
+    for (auto i = 1; i <= N; i++)
     {
         scanf(" %d", &A[i]);
     }
 
-    for (int i = N; i >= 1; i--)
+    for (auto i = N; i >= 1; i--)
     {
         if (stk.empty())
         {
