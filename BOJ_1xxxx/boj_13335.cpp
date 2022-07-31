@@ -17,16 +17,25 @@ int Solve()
     {
         if (!bridge.empty())
         {
+<<<<<<< HEAD
             auto frontTruck = bridge.front();
             if (time - frontTruck.timestamp >= w)
             {
                 bridge.pop();
                 totWeight -= frontTruck.weight;
+=======
+            auto frontT = bridge.front();
+            if (time - frontT.timestamp >= w)
+            {
+                bridge.pop();
+                totWeight -= frontT.weight;
+>>>>>>> 156b8f5eed37c112ff6857d2fe547b84a7b87e0e
             }
         }
 
         if (!inQ.empty())
         {
+<<<<<<< HEAD
             auto Truck = inQ.front();
             if (totWeight + Truck.weight <= l && bridge.size() < w)
             {
@@ -34,6 +43,15 @@ int Solve()
                 bridge.push(Truck);
                 inQ.pop();
                 totWeight += Truck.weight;
+=======
+            auto T = inQ.front();
+            if (totWeight + T.weight <= l && bridge.size() < w)
+            {
+                T.timestamp = time;
+                bridge.push(T);
+                inQ.pop();
+                totWeight += T.weight;
+>>>>>>> 156b8f5eed37c112ff6857d2fe547b84a7b87e0e
             }
         }
     }
