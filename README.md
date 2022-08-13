@@ -7,7 +7,7 @@
 ## Fredhur's Environment
 + c++11 ~ c++17
 + Windows (OS)
-+ MSVC (Compiler)
++ Compiler : MSVC, Apple clang
 + Visual Studio code (IDE)
 + Visual Studio 2022 (For using MSVC compiler)
 
