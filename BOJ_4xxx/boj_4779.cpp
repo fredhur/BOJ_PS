@@ -24,8 +24,9 @@ void KantoreString(int numIdx, int len)
     }
     KantoreString(numIdx, len / 3);
 
-    for (int i = 0; i < len / 3; i++) printf(" ");
-    
+    for (int i = 0; i < len / 3; i++)
+        printf(" ");
+
     KantoreString(numIdx + 2 * len / 3, len / 3);
 }
 int main()
