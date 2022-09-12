@@ -26,8 +26,7 @@ def htmlParse(url):
 
 
 def statusBar(n , total) : 
-
-    print("\rWebCrawling... {0} %".format(int(n/total * 100)), end="")
+    print("\r Processing... {0} %".format(int(n/total * 100)), end="")
 
 def CrawlingAllProblems(problemList):
    
@@ -39,6 +38,8 @@ def CrawlingAllProblems(problemList):
 
     totalProblem = len(solvedProblemList)
     processcedCnt = 0;
+
+    print("Start WebCrawling !! ", end="")
     for number in solvedProblemList:
         url = "https://www.acmicpc.net/problem" + "/" + number[3] 
         soup = htmlParse(url)
@@ -48,15 +49,32 @@ def CrawlingAllProblems(problemList):
         number.append(title.text)
         statusBar(processcedCnt, totalProblem)
         processcedCnt+=1
-    print("\nWebCrawling is Done!! start re-naming problems")
-    for i in solvedProblemList:
-        print(i)
+       
+    print("\nWebCrawling is Done!!")
+   
     return solvedProblemList
+
+def MakeProblemTitle(AddProblenName):
+    statusCnt = 0;
+    AllDoneCnt = len(AddProblemName)
+    for file in AddProblemName:
+        filePath = "./" + file[0] + "_" +  file[1] + "/"
+        fileName = "_".join(file[2::])
+        
+        f = open(filePath+fileName,'w')
+        f.close()
+        statusBar(statusCnt, AllDoneCnt)
+        statusCnt+=1
+        
 
 if __name__ == "__main__" :
     problemList = MakeProgramsList()
     login()
     AddProblemName = CrawlingAllProblems(problemList)
+
+    MakeProblemTitle(AddProblemName)
+    
+                 
 
 
     
