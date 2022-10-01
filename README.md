@@ -5,7 +5,7 @@
 > fredhur's problem solving of [Baekjoon Online Judge](https://acmicpc.net)
 
 ## Fredhur's Environment
-+ c++11 ~ c++17 , python3 (Two mainly used programming language)
++ c++11 ~ c++17 , python3 (Two mainly used programming language when solve problem)
 + Windows11, MacOS Monteray 
 + Compiler : MSVC, Apple clang
 + Visual Studio code (IDE)
