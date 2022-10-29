@@ -66,9 +66,9 @@ def AddProblemTitleToTheTopOfFile(file, problemName) :
     print(path+filename);
     filePath = path+filename;
     addLine = ""
-
-    prefix = "// (https://acmicpc.net) Problem Title " if file[4]=='cpp' else "# Problem Title "
-    addLine = prefix + filename
+    url = "hhttps://www.acmicpc.net/problem/"+file[3]
+    prefix = "// " if file[4]=='cpp' else "# "
+    addLine = prefix + "Title : " + file[5] + " " + url
     
     with open(filePath , 'r+') as f:
         content = f.read()
