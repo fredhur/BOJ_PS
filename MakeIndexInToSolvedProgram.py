@@ -58,11 +58,14 @@ def AddProblemTitleToTheTopOfFile(file, problemName) :
     addLine = comment + "Title : " + file[5] + " " + url
     
     with open(filePath , 'r+') as f:
+        oneline = next(f)
         content = f.read()
-        oneline = f.readline()
+       
         f.seek(0,0)
+        print(oneline)
         if(bojLink not in oneline):
-             f.write(addLine.rstrip('\r\n')+'\n' + content)
+            a=1
+             #f.write(addLine.rstrip('\r\n')+'\n' + content)
         
     return;
 
