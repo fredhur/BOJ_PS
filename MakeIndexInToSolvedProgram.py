@@ -60,9 +60,7 @@ def AddProblemTitleToTheTopOfFile(file, problemName) :
          oneline = next(f)
     with open(filePath , 'r+') as f:
         content = f.read()
-       
         f.seek(0,0)
-        print(oneline)
         if(bojLink not in oneline):
             f.write(addLine.rstrip('\r\n')+'\n' + content)
         
