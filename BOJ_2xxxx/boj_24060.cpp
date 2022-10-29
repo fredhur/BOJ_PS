@@ -1,3 +1,4 @@
+// Title : 알고리즘 수업 - 병합 정렬 1 https://www.acmicpc.net/problem/24060
 #include <cstdio>
 constexpr auto SIZE = (500'007);
 int arr[SIZE];

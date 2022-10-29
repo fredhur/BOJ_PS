@@ -1,3 +1,4 @@
+// Title : Magic Trick https://www.acmicpc.net/problem/21143
 #include <cstdio>
 int lut[26];
 int main()

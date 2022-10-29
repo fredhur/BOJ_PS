@@ -1,3 +1,4 @@
+// Title : Cupcake Party https://www.acmicpc.net/problem/24568
 #include <cstdio>
 int main()
 {

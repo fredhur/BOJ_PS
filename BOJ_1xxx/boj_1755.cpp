@@ -1,3 +1,4 @@
+// Title : 숫자놀이 https://www.acmicpc.net/problem/1755
 #include <iostream>
 #include <string>
 #include <vector>

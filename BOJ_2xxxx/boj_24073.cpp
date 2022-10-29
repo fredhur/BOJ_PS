@@ -1,3 +1,4 @@
+// Title : ビ太郎と IOI (Bitaro and IOI) https://www.acmicpc.net/problem/24073
 #include <cstdio>
 template <class FSM>
 class Fsm

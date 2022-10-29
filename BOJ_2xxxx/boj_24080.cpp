@@ -1,3 +1,4 @@
+// Title : 複雑な文字列 (Complex String) https://www.acmicpc.net/problem/24080
 #include <cstdio>
 int N, cnt[26];
 int main()

@@ -1,3 +1,4 @@
+// Title : 短針 (Hour Hand) https://www.acmicpc.net/problem/24083
 #include <cstdio>
 int main()
 {

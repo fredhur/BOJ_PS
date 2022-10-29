@@ -1,3 +1,4 @@
+// Title : DNA 해독 https://www.acmicpc.net/problem/1672
 #include <cstdio>
 #include <stack>
 using namespace std;

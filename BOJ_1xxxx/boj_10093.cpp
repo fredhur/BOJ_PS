@@ -1,3 +1,4 @@
+// Title : 숫자 https://www.acmicpc.net/problem/10093
 #include <cstdio>
 using ll = long long;
 ll A, B;

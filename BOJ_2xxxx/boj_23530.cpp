@@ -1,3 +1,4 @@
+// Title : Not A + B https://www.acmicpc.net/problem/23530
 #include <cstdio>
 int solve(int sum)
 {

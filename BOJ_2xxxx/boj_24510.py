@@ -1,3 +1,4 @@
+# Title : 시간복잡도를 배운 도도 https://www.acmicpc.net/problem/24510
 N = int(input())
 
 cnt = 0

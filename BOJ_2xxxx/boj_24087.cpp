@@ -1,3 +1,4 @@
+// Title : アイスクリーム (Ice Cream) https://www.acmicpc.net/problem/24087
 #include <cstdio>
 int S, A, B;
 int main()

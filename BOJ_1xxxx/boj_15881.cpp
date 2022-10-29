@@ -1,3 +1,4 @@
+// Title : Pen Pineapple Apple Pen https://www.acmicpc.net/problem/15881
 #include <cstdio>
 int N;
 char str[1000007];

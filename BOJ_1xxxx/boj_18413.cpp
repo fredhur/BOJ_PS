@@ -1,3 +1,4 @@
+// Title : 最頻値 (Mode) https://www.acmicpc.net/problem/18413
 #include <cstdio>
 int N,M;
 int saveN[105];

@@ -1,3 +1,4 @@
+// Title : 줄 세우기 https://www.acmicpc.net/problem/1681
 #include <cstdio>
 
 int Solve(int N, int L)

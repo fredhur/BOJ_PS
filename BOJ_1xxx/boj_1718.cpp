@@ -1,3 +1,4 @@
+// Title : 암호 https://www.acmicpc.net/problem/1718
 #include <cstdio>
 char str[30007];
 char key[30007];

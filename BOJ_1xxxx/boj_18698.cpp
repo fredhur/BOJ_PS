@@ -1,3 +1,4 @@
+// Title : The Walking Adam https://www.acmicpc.net/problem/18698
 #include <cstdio>
 int mstrlen(char *s)
 {

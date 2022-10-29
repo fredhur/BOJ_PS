@@ -1,3 +1,4 @@
+// Title : 교수가 된 현우 https://www.acmicpc.net/problem/3474
 #include <cstdio>
 int LeadingZero(int n)
 {

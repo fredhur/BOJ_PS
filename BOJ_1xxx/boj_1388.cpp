@@ -1,3 +1,4 @@
+// Title : 바닥 장식 https://www.acmicpc.net/problem/1388
 #include <cstdio>
 
 char map[55][55];

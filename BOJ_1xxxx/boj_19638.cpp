@@ -1,3 +1,4 @@
+// Title : 센티와 마법의 뿅망치 https://www.acmicpc.net/problem/19638
 #include <cstdio>
 
 int T, N, H;

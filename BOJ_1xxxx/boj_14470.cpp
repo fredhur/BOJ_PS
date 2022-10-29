@@ -1,3 +1,4 @@
+// Title : 전자레인지 https://www.acmicpc.net/problem/14470
 #include <cstdio>
 
 int A, B, C, D, E;

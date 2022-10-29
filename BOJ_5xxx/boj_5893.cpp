@@ -1,3 +1,4 @@
+// Title : 17배 https://www.acmicpc.net/problem/5893
 #include <cstdio>
 template <typename T, size_t N>
 constexpr auto MyArrSize(T (&arr)[N])

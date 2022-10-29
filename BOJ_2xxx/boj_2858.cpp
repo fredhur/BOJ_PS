@@ -1,3 +1,4 @@
+// Title : 기숙사 바닥 https://www.acmicpc.net/problem/2858
 #include <cstdio>
 int R, B;
 int main()

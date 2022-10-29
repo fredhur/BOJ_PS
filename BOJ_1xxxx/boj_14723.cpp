@@ -1,3 +1,4 @@
+// Title : 이산수학 과제 https://www.acmicpc.net/problem/14723
 #include <cstdio>
 int CalcPrev(int N)
 {

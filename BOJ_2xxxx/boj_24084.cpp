@@ -1,3 +1,4 @@
+// Title : 次の文字 (Next Character) https://www.acmicpc.net/problem/24084
 #include <cstdio>
 int main()
 {

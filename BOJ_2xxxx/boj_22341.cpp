@@ -1,3 +1,4 @@
+// Title : 사각형 면적 https://www.acmicpc.net/problem/22341
 #include <cstdio>
 int main()
 {

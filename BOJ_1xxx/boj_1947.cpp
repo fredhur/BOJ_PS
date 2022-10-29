@@ -1,3 +1,4 @@
+// Title : 선물 전달 https://www.acmicpc.net/problem/1947
 #include <cstdio>
 constexpr auto mod = 1'000'000'000;
 using ll = long long;

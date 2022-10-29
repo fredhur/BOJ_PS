@@ -1,3 +1,4 @@
+// Title : Laptop Sticker https://www.acmicpc.net/problem/21591
 #include <cstdio>
 
 int main()

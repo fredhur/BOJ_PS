@@ -1,3 +1,4 @@
+// Title : Tournament Selection https://www.acmicpc.net/problem/14038
 #include <cstdio>
 constexpr short lut[] =
     {

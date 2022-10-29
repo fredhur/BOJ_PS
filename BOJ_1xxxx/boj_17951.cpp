@@ -1,3 +1,4 @@
+// Title : 흩날리는 시험지 속에서 내 평점이 느껴진거야 https://www.acmicpc.net/problem/17951
 // binary search optimization.
 #include <cstdio>
 int N, K, ans, low, high, arr[100007];

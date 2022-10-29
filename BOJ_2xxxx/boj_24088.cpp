@@ -1,3 +1,4 @@
+// Title : 運動会 (Sports Day) https://www.acmicpc.net/problem/24088
 #include <cstdio>
 int N;
 int K;

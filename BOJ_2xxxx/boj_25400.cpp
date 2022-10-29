@@ -1,3 +1,4 @@
+// Title : 제자리 https://www.acmicpc.net/problem/25400
 #include <cstdio>
 int arr[250007];
 int N;

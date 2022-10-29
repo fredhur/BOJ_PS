@@ -1,3 +1,4 @@
+// Title : 삼트리스 https://www.acmicpc.net/problem/14125
 #include <cstdio>
 template <typename T>
 T max(T a, T b)

@@ -1,3 +1,4 @@
+// Title : K번째 부분 문자열 https://www.acmicpc.net/problem/16914
 #include <stdio.h>
 int dp[1005];
 int P[10007];

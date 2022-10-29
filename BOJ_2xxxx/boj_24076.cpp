@@ -1,3 +1,4 @@
+// Title : IOI 文字列 (IOI String) https://www.acmicpc.net/problem/24076
 #include <cstdio>
 class State 
 {

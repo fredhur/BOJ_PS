@@ -1,3 +1,4 @@
+// Title : 소수의 자격 https://www.acmicpc.net/problem/6219
 #include <cstdio>
 #include <cmath>
 using ll = int;

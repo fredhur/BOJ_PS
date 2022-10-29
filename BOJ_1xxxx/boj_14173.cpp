@@ -1,3 +1,4 @@
+// Title : Square Pasture https://www.acmicpc.net/problem/14173
 #include <cstdio>
 #include <algorithm>
 #include <vector>

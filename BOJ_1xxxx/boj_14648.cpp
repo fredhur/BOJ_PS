@@ -1,3 +1,4 @@
+// Title : 쿼리 맛보기 https://www.acmicpc.net/problem/14648
 #include <cstdio>
 using ll = long long;
 int n,q;

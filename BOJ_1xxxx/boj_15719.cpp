@@ -1,3 +1,4 @@
+// Title : 중복된 숫자 https://www.acmicpc.net/problem/15719
 #include <cstdio>
 using ll = long long;
 int main()

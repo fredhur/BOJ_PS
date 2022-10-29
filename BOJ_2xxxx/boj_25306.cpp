@@ -1,3 +1,4 @@
+// Title : 연속 XOR https://www.acmicpc.net/problem/25306
 #include <iostream>
 using ll = long long;
 

@@ -1,3 +1,4 @@
+// Title : 칸토어 집합 https://www.acmicpc.net/problem/4779
 #include <cstdio>
 int N;
 int threeSquare(int a, int N)

@@ -1,3 +1,4 @@
+// Title : 分割 (Split) https://www.acmicpc.net/problem/24074
 #include <cstdio>
 int N;
 int arr[105];

@@ -1,3 +1,4 @@
+// Title : Automated Checking Machine https://www.acmicpc.net/problem/10395
 #include <cstdio>
 int X, Y, d, i;
 int main()

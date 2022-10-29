@@ -1,3 +1,4 @@
+// Title : 영수증 https://www.acmicpc.net/problem/25304
 #include <iostream>
 using ll = long long;
 class Solve

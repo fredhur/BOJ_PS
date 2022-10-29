@@ -1,3 +1,4 @@
+// Title : 比較 (Comparison) https://www.acmicpc.net/problem/24077
 #include <cstdio>
 int A[103];
 int B[103];

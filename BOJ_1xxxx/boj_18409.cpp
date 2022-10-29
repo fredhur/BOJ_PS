@@ -1,3 +1,4 @@
+// Title : 母音を数える (Counting Vowels) https://www.acmicpc.net/problem/18409
 #include <cstdio>
 
 bool isVowel(char ch)

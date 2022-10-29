@@ -1,3 +1,4 @@
+// Title : ソーシャルゲーム (Social Game) https://www.acmicpc.net/problem/16785
 #include <cstdio>
 #include <iostream>
 #include <cmath>

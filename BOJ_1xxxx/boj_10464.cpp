@@ -1,3 +1,4 @@
+// Title : XOR https://www.acmicpc.net/problem/10464
 #include <iostream>
 using ll = long long;
 ll xorAtoB(ll n)

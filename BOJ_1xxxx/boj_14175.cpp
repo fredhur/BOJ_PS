@@ -1,3 +1,4 @@
+// Title : The Cow-Signal https://www.acmicpc.net/problem/14175
 #include <iostream>
 #include <string>
 using namespace std;

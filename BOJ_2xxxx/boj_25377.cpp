@@ -1,3 +1,4 @@
+// Title : 빵 https://www.acmicpc.net/problem/25377
 #include <cstdio>
 int N;
 #define INT_MAX (0x7fffffff)

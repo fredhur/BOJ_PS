@@ -1,3 +1,4 @@
+// Title : 빙글빙글 스네일 https://www.acmicpc.net/problem/15722
 #include <cstdio>
 struct Pos
 {

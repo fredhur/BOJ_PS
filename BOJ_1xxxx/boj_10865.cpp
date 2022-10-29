@@ -1,3 +1,4 @@
+// Title : 친구 친구 https://www.acmicpc.net/problem/10865
 #include <iostream>
 #include <vector>
 using namespace std;

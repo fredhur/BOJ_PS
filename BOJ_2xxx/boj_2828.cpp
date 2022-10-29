@@ -1,3 +1,4 @@
+// Title : 사과 담기 게임 https://www.acmicpc.net/problem/2828
 #include <cstdio>
 int bucket[16];
 int screen[16];

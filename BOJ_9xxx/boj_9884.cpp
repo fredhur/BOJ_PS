@@ -1,3 +1,4 @@
+// Title : Euclid https://www.acmicpc.net/problem/9884
 #include <cstdio>
 template <typename T>
 inline T MAX(T a, T b)

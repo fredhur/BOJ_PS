@@ -1,3 +1,4 @@
+// Title : 골드바흐 파티션 https://www.acmicpc.net/problem/17103
 #include <cstdio>
 #include <cmath>
 using ll = int;

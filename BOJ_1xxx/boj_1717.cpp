@@ -1,3 +1,4 @@
+// Title : 집합의 표현 https://www.acmicpc.net/problem/1717
 #include <cstdio>
 int n, m;
 int parent[1'000'007];

@@ -1,3 +1,4 @@
+// Title : X に最も近い値 (The Nearest Value) https://www.acmicpc.net/problem/18414
 #include <cstdio>
 int X,L,R;
 int main()

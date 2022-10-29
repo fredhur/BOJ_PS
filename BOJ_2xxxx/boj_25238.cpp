@@ -1,3 +1,4 @@
+// Title : 가희와 방어율 무시 https://www.acmicpc.net/problem/25238
 #include <cstdio>
 int a, b;
 int main()

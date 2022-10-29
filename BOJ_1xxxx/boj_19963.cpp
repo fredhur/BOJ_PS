@@ -1,3 +1,4 @@
+// Title : Санта Клаус https://www.acmicpc.net/problem/19963
 #include <cstdio>
 int n, m, k;
 bool arr[105];

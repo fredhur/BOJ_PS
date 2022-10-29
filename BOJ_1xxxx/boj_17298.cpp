@@ -1,3 +1,4 @@
+// Title : 오큰수 https://www.acmicpc.net/problem/17298
 #include <cstdio>
 constexpr auto SIZE = 1'000'007;
 struct Node

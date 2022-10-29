@@ -1,3 +1,4 @@
+// Title : 미국 스타일 https://www.acmicpc.net/problem/2712
 #include <cstdio>
 int tc;
 char *s[] = {"lb", "l", "g", "kg"};

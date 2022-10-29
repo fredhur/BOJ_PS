@@ -1,3 +1,4 @@
+// Title : キャピタリゼーション (Capitalization) https://www.acmicpc.net/problem/18415
 #include <cstdio>
 bool isJOI(char *s)
 {

@@ -1,3 +1,4 @@
+// Title : Red and Black https://www.acmicpc.net/problem/4993
 #include <iostream>
 using namespace std;
 

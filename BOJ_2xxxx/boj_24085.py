@@ -1,3 +1,4 @@
+# Title : 希少な数 (Rare Number) https://www.acmicpc.net/problem/24085
 N = int(input())
 l = list(map(int, input().split()))
 D = dict()

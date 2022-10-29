@@ -1,3 +1,4 @@
+// Title : 행성 정렬 https://www.acmicpc.net/problem/25344
 #include <cstdio>
 using ll = long long;
 static ll gcd(ll a, ll b)

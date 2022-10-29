@@ -1,3 +1,4 @@
+// Title : 最長昇順連続部分列 (Longest Ascending Contiguous Subsequence) https://www.acmicpc.net/problem/18416
 #include <cstdio>
 int N;
 int arr[105];

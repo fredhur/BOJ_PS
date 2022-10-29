@@ -1,3 +1,4 @@
+// Title : 성택이의 은밀한 비밀번호 https://www.acmicpc.net/problem/25372
 #include <iostream>
 const char *Calc(char *pwd)
 {

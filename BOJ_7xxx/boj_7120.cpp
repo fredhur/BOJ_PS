@@ -1,3 +1,4 @@
+// Title : String https://www.acmicpc.net/problem/7120
 #include <cstdio>
 char str[252];
 auto mstrlen(char *s)

@@ -1,3 +1,4 @@
+// Title : 두 개의 배열 https://www.acmicpc.net/problem/17124
 #include <iostream>
 #include <algorithm>
 int A[1000007];

@@ -1,3 +1,4 @@
+// Title : 맞았는데 왜 틀리죠? https://www.acmicpc.net/problem/15820
 #include <iostream>
 using namespace std;
 int S1,S2;
