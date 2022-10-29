@@ -54,16 +54,46 @@ def CrawlingAllProblems(problemList):
    
     return solvedProblemList
 
+
+def AddProblemTitleToTheTopOfFile(file, problemName) :
+    
+    for i in file :
+        print(i,end="")
+    print()
+    path = "./" + file[0] + "_" +  file[1] + "/"
+  
+    filename = "_".join(file[2:4]) + "."+file[4]
+    print(path+filename);
+    filePath = path+filename;
+    addLine = ""
+
+    prefix = "// (https://acmicpc.net) Problem Title " if file[4]=='cpp' else "# Problem Title "
+    addLine = prefix + filename
+    
+    with open(filePath , 'r+') as f:
+        content = f.read()
+        oneline = f.readline()
+        f.seek(0,0)
+        if("(https://acmicpc.net) Problem Title" not in oneline):
+             f.write(addLine.rstrip('\r\n')+'\n' + content)
+   
+           
+        
+    return;
+
 def MakeProblemTitle(AddProblenName):
     print("Start Make problem title !!")
     statusCnt = 0;
     AllDoneCnt = len(AddProblemName)
     for file in AddProblemName:
         filePath = "./" + file[0] + "_" +  file[1] + "/"
+        
         fileName = "_".join(file[2::])
         
         f = open(filePath+fileName,'w')
         f.close()
+        AddProblemTitleToTheTopOfFile(file, file[-1])
+
         statusBar(statusCnt, AllDoneCnt)
         statusCnt+=1
     
