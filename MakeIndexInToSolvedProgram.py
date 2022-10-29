@@ -7,15 +7,10 @@ import re
 from pathlib import Path
 from bs4 import BeautifulSoup
 import requests
-def MakeProgramsList() :
-    result = list(Path(".").rglob("*.cpp"))
-    result = result + list(Path(".").rglob("*.py"))
-    return result 
 
+def statusBar(n , total) : 
+    print("\r Processing... {0} %".format(int(n/total * 100)), end="")
 
-def login():
-    return
-    
 
 def htmlParse(url):
     #print(url)
@@ -23,13 +18,7 @@ def htmlParse(url):
     soup = BeautifulSoup(webpage.content, "html.parser")
     return soup
 
-
-
-def statusBar(n , total) : 
-    print("\r Processing... {0} %".format(int(n/total * 100)), end="")
-
-def CrawlingAllProblems(problemList):
-   
+def CrawlingAllProblems(problemList):   
     solvedProblemList = []
     for problem in problemList:
         problemParse = re.split('[/._]', str(problem))
@@ -57,31 +46,33 @@ def CrawlingAllProblems(problemList):
 
 def AddProblemTitleToTheTopOfFile(file, problemName) :
     
-    for i in file :
-        print(i,end="")
-    print()
     path = "./" + file[0] + "_" +  file[1] + "/"
-  
     filename = "_".join(file[2:4]) + "."+file[4]
-    print(path+filename);
     filePath = path+filename;
-    addLine = ""
-    url = "hhttps://www.acmicpc.net/problem/"+file[3]
-    prefix = "// " if file[4]=='cpp' else "# "
-    addLine = prefix + "Title : " + file[5] + " " + url
+    
+    bojLink = "https://www.acmicpc.net/problem/"
+    url = bojLink +file[3]
+    
+    comment = "// " if file[4]=='cpp' else "# "
+    
+    addLine = comment + "Title : " + file[5] + " " + url
     
     with open(filePath , 'r+') as f:
         content = f.read()
         oneline = f.readline()
         f.seek(0,0)
-        if("(https://acmicpc.net) Problem Title" not in oneline):
+        if(bojLink not in oneline):
              f.write(addLine.rstrip('\r\n')+'\n' + content)
-   
-           
         
     return;
 
+
+
+
 def MakeProblemTitle(AddProblenName):
+
+
+    
     print("Start Make problem title !!")
     statusCnt = 0;
     AllDoneCnt = len(AddProblemName)
@@ -99,9 +90,18 @@ def MakeProblemTitle(AddProblenName):
     
     print()
 
+
+
 if __name__ == "__main__" :
+    
+    def MakeProgramsList() :
+        result = list(Path(".").rglob("*.cpp"))
+        result = result + list(Path(".").rglob("*.py"))
+        return result 
+    
+    
     problemList = MakeProgramsList()
-    login()
+    
     AddProblemName = CrawlingAllProblems(problemList)
 
     MakeProblemTitle(AddProblemName)
