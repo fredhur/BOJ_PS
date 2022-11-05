@@ -45,21 +45,21 @@ void UpdateTree(int start, int end, int node, int index, int diffVal)
     UpdateTree(mid + 1, end, node * 2 + 1, index, diffVal);
 }
 
-int QuertyToGetRank(int start , int end, int node , int left, int right, int rank)
+int QuertyToGetRank(int start, int end, int node, int left, int right, int rank)
 {
-    if(start == end ) return start; // index 를 리턴 해준다. 
+    if (start == end)
+        return start; // index 를 리턴 해준다.
 
-    int mid = ( start + end ) / 2;
+    int mid = (start + end) / 2;
 
-    if(rank <= segmentTree[node*2])
+    if (rank <= segmentTree[node * 2])
     {
-        return QuertyToGetRank(start, mid, node *2, left, right, rank);
+        return QuertyToGetRank(start, mid, node * 2, left, right, rank);
     }
-    else 
+    else
     {
-        return QuertyToGetRank(mid+1, end, node*2+1, left, right, rank-segmentTree[node*2]);
-    }   
-    
+        return QuertyToGetRank(mid + 1, end, node * 2 + 1, left, right, rank - segmentTree[node * 2]);
+    }
 }
 int A, B, C;
 int main()
@@ -72,18 +72,17 @@ int main()
         if (A == 1)
         {
             scanf(" %d", &B);
-            int idx = QuertyToGetRank(0, SIZE -1 , 1, 0, 0 , B);
+            int idx = QuertyToGetRank(0, SIZE - 1, 1, 0, 0, B);
 
-            UpdateTree(0, SIZE-1, 1, idx, -1);
+            UpdateTree(0, SIZE - 1, 1, idx, -1);
             printf("%d\n", idx);
         }
         else if (A == 2)
         {
             scanf(" %d", &B);
             scanf(" %d", &C);
-            
-            UpdateTree(0, SIZE-1, 1, B, C);
-            
+
+            UpdateTree(0, SIZE - 1, 1, B, C);
         }
     }
     return 0;
