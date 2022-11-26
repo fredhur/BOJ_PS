@@ -1,3 +1,4 @@
+// Title : DNA 비밀번호 https://www.acmicpc.net/problem/12891
 #include <cstdio>
 char str[1000007];
 struct Data

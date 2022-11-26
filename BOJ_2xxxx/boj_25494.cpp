@@ -1,3 +1,4 @@
+// Title : 단순한 문제 (Small) https://www.acmicpc.net/problem/25494
 #include <cstdio>
 int ans(const int &a, const int &b, const int &c)
 {
