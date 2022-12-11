@@ -50,6 +50,9 @@
         "xstddef": "cpp",
         "xtr1common": "cpp",
         "queue": "cpp",
-        "set": "cpp"
+        "set": "cpp",
+        "array": "cpp",
+        "__availability": "cpp",
+        "__hash_table": "cpp"
     }
 }
