@@ -1,3 +1,4 @@
+// Title : IOIOI https://www.acmicpc.net/problem/5525
 #include <cstdio>
 constexpr auto LEN = 1'000'007;
 char str[LEN];

@@ -1,3 +1,4 @@
+// Title : 수열과 쿼리 24 https://www.acmicpc.net/problem/17408
 #include <iostream>
 #include <algorithm>
 constexpr auto SIZE = 100'004;

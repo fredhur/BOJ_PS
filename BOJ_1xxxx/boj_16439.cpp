@@ -1,3 +1,4 @@
+// Title : 치킨치킨치킨 https://www.acmicpc.net/problem/16439
 #include <cstdio>
 int N, M;
 int arr[33][33];
