@@ -3,7 +3,7 @@
 
 int A, B, C, D, E;
 
-class Event
+class Event0
 {
 };
 template <class FSM>
@@ -103,7 +103,7 @@ private:
     {
         friend Fsm;
         using Fsm::State::State;
-        virtual void event(Event) {}
+        virtual void event(Event0) {}
         virtual void entry(){};
     };
 
@@ -115,7 +115,7 @@ private:
         friend Fsm;
         using State::State;
 
-        void event(Event d)
+        void event(Event0 d)
         {
             temperatureCnt++;
             if (temperatureCnt % C == 0)
@@ -144,7 +144,7 @@ private:
         friend Fsm;
         using State::State;
 
-        void event(Event d)
+        void event(Event0 d)
         {
             temperatureCnt++;
 
@@ -169,7 +169,7 @@ private:
         int E;
         friend Fsm;
         using State::State;
-        void event(Event d)
+        void event(Event0 d)
         {
             temperatureCnt++;
             if (temperatureCnt % E == 0)
@@ -212,7 +212,7 @@ int main()
     while (meatState.GetTemperature() != B)
     {
         t++;
-        meatState.handle(Event());
+        meatState.handle(Event0());
     }
 
     printf("%d", t);
