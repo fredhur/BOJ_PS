@@ -117,16 +117,16 @@ struct BigInt
         puts("");
     }
 };
-char tot[LM];
+char input[LM];
 char diff[LM];
 BigInt Tot, Diff, two;
 int main()
 {
-    scanf("%s", tot);
+    scanf("%s", input);
     scanf(" %s", diff);
 
     two.init("2");
-    Tot.init(tot), Diff.init(diff);
+    Tot.init(input), Diff.init(diff);
     BigInt x = (Tot - Diff) / two;
 
     (x + Diff).print();
