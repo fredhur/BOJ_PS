@@ -9,18 +9,10 @@ int main()
     dp[4] = 1;
     int N;
     scanf("%d", &N);
-    for(int i=5; i<=N; i++)
+    for (int i = 5; i <= N; i++)
     {
-        if(dp[i-1] == 0 || dp[i-3] == 0 || dp[i-4]==0)
-        {
-            dp[i] = 1;
-        }
-        else 
-        {
-            dp[i] = 0;
-        }
+        dp[i] = (dp[i - 1] == 0 || dp[i - 3] == 0 || dp[i - 4] == 0);
     }
-
-    puts(dp[N]==1 ? "SK" : "CY");
+    puts(dp[N] == true ? "SK" : "CY");
     return 0;
 }
